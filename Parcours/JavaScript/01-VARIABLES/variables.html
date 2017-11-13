@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>variables</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+// Exercice  : Diseur de bonne aventure
+
+      var aventure = {
+        nombre   : "N",
+        nom      : "Z",
+        pays     : "Y",
+        metier   : "X",
+      };
+
+      console.log("Je suis "+aventure.metier+" j'habite à "+aventure.pays+" , je suis marié à "+aventure.nom+" et nous avons "+aventure.nombre);
+
+// Exercice : Calculer l'age
+
+      var age = {
+        courante  : 2017,
+        naissance : 1992,
+      };
+
+      console.log("J'ai "+ (age.courante -= age.naissance) +" ans !");
+
+// Exercice : Bientôt vieux
+
+var vieux = {
+  age     : 25,
+  max     : 100,
+  denree  : "steack",
+  conso   : 10,
+};
+
+console.log("D'ici la fin de ma vie je vais manger "+((vieux.max-vieux.age)*(365*vieux.conso))+" fois du "+vieux.denree);
+
+// Exercice : Priorités
+
+var resultat = {
+  x : 1+2,
+  y : 3,
+  z : 4/2,
+};
+
+var calc = resultat.x*resultat.y+resultat.z;
+
+console.log("Le resultat est de "+ calc);
+
+    </script>
+  </body>
+</html>
